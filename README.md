@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/Sadlyfizzx/notion-rtl-extension/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/تحميل%20الإضافة-Download-green?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Download-ZIP-green?style=for-the-badge" />
   </a>
 </p>
 
