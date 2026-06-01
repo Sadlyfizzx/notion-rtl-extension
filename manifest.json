@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Notion RTL Fix",
+  "version": "1.0.0",
+  "description": "Adds automatic RTL support to Notion pages.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.notion.so/*",
+        "https://*.notion.so/*",
+        "https://www.notion.com/*",
+        "https://*.notion.com/*",
+        "https://app.notion.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
